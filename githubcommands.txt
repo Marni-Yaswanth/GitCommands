@@ -1,0 +1,28 @@
+ls 
+cd " "
+git init
+git remote add origin urlFromGitHub
+git remote -v
+git add .
+git commit -m " "
+git push origin master
+
+
+## if we want to get a repo or file from remote repo or github to our local machine use 
+1) create a folder in local machine
+2) git bash here
+3) git clone <path of the repo>
+ 
+## if we wanted to get the changes done in the file in github to our file in the loacl computer then 
+1) add some changes to the file in github and commit changes there itself
+2) in the folder in local machine 
+3) git pull origin master
+
+## Branches
+1) git branch #to see the current branch
+2) git checkout <branchname> #to go into that branch
+3) git branch -b <branchname> #to create and move inot that branch
+4) after creating a branch we have to push that to see that branch in the repository using (git push origin <branchname>)
+
+## git reset 
+1) to reset the previous commit
